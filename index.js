@@ -5,5 +5,5 @@
 // }
 
 function superbowlWin(record) {
-  return record.find((r) => r.year === "W").year
+  return record.find((r) => r.year === "W")
 }
