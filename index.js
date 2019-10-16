@@ -5,5 +5,6 @@
 // }
 
 function superbowlWin(record) {
-  return record.find((r) => r.year === "W")
+  const firstSbWin = record.find((r) => r.year === "W");
+  !!firstSbWin ? firstSbWin.year : undefined;
 }
