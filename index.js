@@ -12,5 +12,4 @@ function superBowlWin(record) {
       return undefined;
     }
   })
-  
 }
