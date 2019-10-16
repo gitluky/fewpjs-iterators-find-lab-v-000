@@ -4,7 +4,7 @@
 //   return "hi"
 // }
 
-function superBowlWin(record) {
+function superbowlWin(record) {
   record.find((r) => {
     if (r.result === "W") {
       return r.year;
